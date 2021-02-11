@@ -1,0 +1,16 @@
+// 6
+$brown1: #964B00;
+
+// 11
+%center {
+    text-align: center; 
+    padding: 20px;
+}
+
+// 3B
+
+@mixin flex ($justify, $align){
+    display:flex;
+    justify-content: $justify;
+    align-items: $align;
+}
